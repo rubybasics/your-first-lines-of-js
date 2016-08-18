@@ -78,44 +78,24 @@ header, .container {
   margin: auto;
 }
 
-@media (min-width: 800px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: flex-start;
-  }
-
-  .navigation {
-    min-width: 300px;
-
-    order: 0;
-    flex: 4 1 auto;
-    align-self: auto;
-  }
-
-  .content {
-    order: 0;
-    flex: 8 1 auto;
-    align-self: auto;
-  }
-}
-
 /* Modules */
+
+.navigation-list {
+  padding-left: 0;
+  line-height: 2em;
+}
 
 .navigation-list-item {
   list-style-type: none;
-  margin-left: 0;
-  line-height: 1.6em;
+  display: inline-block;
 }
 
 .navigation-list-item:not(:last-child) {
-  margin-bottom: 1em;
+  margin-right: 1em;
 }
 
 .your-turn {
+  margin: 1em 0;
   padding: 1em;
   background-color: var(--your-turn);
   border: 1px solid var(--your-turn-border);
