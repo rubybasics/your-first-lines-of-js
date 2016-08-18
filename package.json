@@ -21,6 +21,7 @@
   "homepage": "https://github.com/stevekinney/your-first-lines-of-js#readme",
   "devDependencies": {
     "eslint": "^2.11.1",
+    "webpack": "^1.13.2",
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
@@ -33,6 +34,7 @@
     "babel-register": "^6.9.0",
     "css-loader": "^0.23.1",
     "html-loader": "^0.4.3",
+    "jquery": "^3.1.0",
     "markdown-loader": "^0.1.7",
     "marked": "^0.3.5",
     "postcss": "^5.0.21",
